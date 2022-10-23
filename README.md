@@ -1,6 +1,9 @@
 # RestroGirls
 ## Introduction
-In this repository you can find stunning looking website. The core idea of this website is ststaed bellow:
+In this repository you can find stunning looking website. The core idea of this website is startaed bellow:
+
+## Idea of the website:
+The core idea of this website is that there are alot of women in the world who can cook but they need a platform where they can sell there products so we created a new website that will women to sell their yummy Food. Different people can search different kind of foods and order online using the website.
 
 ## Theme:
 The main theme of this website is that the website is designed for girls so the the will be in white and pink color stage. 
@@ -9,7 +12,7 @@ The main theme of this website is that the website is designed for girls so the 
 The website using multiple programming languages such as PHP, MySQL, HTML and CSS. More languages can be found and you can find them on github.
 
 ## License
-The website is licensed under MIT license, see [LICENSE](./LICENSE)
+The website is licensed under Apache-2.0 license, see [LICENSE](./LICENSE)
 
 ## Installment Methods:
 ### Installing Application:
