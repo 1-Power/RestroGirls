@@ -27,3 +27,5 @@ In ordor to run the application on your system you need to a couple applications
 localhost 
 '''
 5. When you enter the above command then you will be redirected to the myphpadmin website. It will look like this as shown below:
+![5](https://user-images.githubusercontent.com/82662797/197410375-dfb98964-029e-4b87-a7c4-1db1ea635222.png)
+6. 
