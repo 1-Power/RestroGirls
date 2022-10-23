@@ -107,7 +107,8 @@ To Report any bugs in the project Us the following [template](./.github/ISSUE_TE
 To request any new Feature Use the following [Template](./.github/ISSUE_TEMPLATE/feature_request.md)
 
 **Note:**
-All of the code will be in done in the test branch and other will be merged in the main repo until the branch is reviews and approved.
+All of the code will be done in the Development Brach and then Testing will be done in the Testing Branch. Once the feature are tested then they will be merged into the the main branch.
+
 
 Happy Coding…👋
 # Contact
