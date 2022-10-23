@@ -88,10 +88,12 @@ http://localhost/RestroGirls/admin/index.php
 ### Login Information:
 #### Default Login Information:
 **Email Address:** mishti@gmail.com
+
 **Password:** 12345
 
 #### Administrator Login Information:
 **Email Address:** admin@gmail.com
+
 **Password:** 12345
 
 # Contributor
