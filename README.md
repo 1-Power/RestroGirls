@@ -107,7 +107,7 @@ To Report any bugs in the project Us the following [template](./.github/ISSUE_TE
 To request any new Feature Use the following [Template](./.github/ISSUE_TEMPLATE/feature_request.md)
 
 **Note:**
-All of the code will be done in the Development Brach and then Testing will be done in the Testing Branch. Once the feature are tested then they will be merged into the the main branch.
+All of the code will be done in the [Development Brach](https://github.com/1-Power/RestroGirls/tree/Devrlopment-Branch) and then Testing will be done in the [Testing Branch](https://github.com/1-Power/RestroGirls/tree/Testing-Branch). Once the feature are tested then they will be merged into the the [main](https://github.com/1-Power/RestroGirls) branch.
 
 
 Happy Coding…👋
