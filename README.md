@@ -19,5 +19,5 @@ In ordor to run the application on your system you need to a couple applications
 
 ## Steps:
 1. Once all your applications are installed then run xampp. 
-[](/images/2.png)
-2. Once the xampp is running then click start on the first two options as show in the above image.
+2. Once the xampp is running then click start on the first two options as show in the bellow image.
+![2](https://user-images.githubusercontent.com/82662797/197410059-99b629d5-cab0-4878-b0bc-15f618bdb7e1.png)
