@@ -21,3 +21,9 @@ In ordor to run the application on your system you need to a couple applications
 1. Once all your applications are installed then run xampp. 
 2. Once the xampp is running then click start on the first two options as show in the bellow image.
 ![2](https://user-images.githubusercontent.com/82662797/197410059-99b629d5-cab0-4878-b0bc-15f618bdb7e1.png)
+3. Once the server is running then open Browser of your choice.
+4. Open the browser of your choice isopen then on the search bar type the following: 
+'''
+localhost 
+'''
+5. When you enter the above command then you will be redirected to the myphpadmin website. It will look like this as shown below:
