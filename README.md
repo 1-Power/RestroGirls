@@ -104,6 +104,12 @@ All of the code will be in done in the test branch and other will be merged in t
 
 Happy Coding…👋
 # Contact
+## Organization Detail:
+**Organization:** [1-Power](https://github.com/1-Power)
+
+**Email:** [one.power798@gmail.com](mailto:one.power798@gmail.com)
+## Author Detail:
+
 **Author:** Abdul Rafay
 
 **Email:** [99marafay@gmail.com](mailto:99marafay@gmail.com)
