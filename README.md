@@ -98,6 +98,10 @@ http://localhost/RestroGirls/admin/index.php
 
 # Contributor
 For more features or face any issue free will to post on the issue section. Free will to fork this project and add more thing to this project.
+## Report Any Bugs:
+To Report any bugs in the project Us the following [template](./.github/ISSUE_TEMPLATE/bug_report.md)
+## Request any Features:
+To request any new Feature Use the following [Template](./.github/ISSUE_TEMPLATE/feature_request.md)
 
 **Note:**
 All of the code will be in done in the test branch and other will be merged in the main repo until the branch is reviews and approved.
