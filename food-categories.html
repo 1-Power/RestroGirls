@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+	<title>RestroGirls - Categories!</title>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	<!-- <meta http-equiv="refresh" content="1"> -->
+
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+	<link href="https://fonts.googleapis.com/css?family=Pacifico&display=swap" rel="stylesheet">
+
+	<link href="https://fonts.googleapis.com/css?family=Bree+Serif&display=swap" rel="stylesheet">
+
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- login Model -->
+    <section class="loginmodal">
+        <div id="modal1" class="modal">
+            <div class="modal-content center">
+              <h4>Good to See You Back!</h4>
+    
+              <h5><small class="center" id="login_error" style="color: red;"></small></h5>
+              <form action="">
+    
+                  <div class="row">
+    
+                <div class="input-field col s12">
+                  <input id="email_login" type="email" class="validate">
+                  <label for="email">Email</label>
+                </div>
+    
+                <div class="input-field col s12">
+                  <input id="password_login" type="password" class="validate">
+                  <label for="password">Password</label>
+                </div>
+                
+              </div>
+    
+              <a href="javascript:void(0)" class="modal-close waves-effect waves-light btn" id="login_btn" style="background: #ee6e73 !important;">Login</a>
+                  
+              </form>
+            </div>
+          </div>
+      </section>
+
+      <!-- Register Model -->
+      <section class="registermodal">
+        <div id="modal2" class="modal">
+            <div class="modal-content center">
+              <h4>Register Here!</h4>
+    
+              <h5><small class="center" id="reg_error" style="color: red;"></small></h5>
+              <form>
+    
+                  <div class="row">
+    
+                  <div class="input-field col s12">
+                  <input onkeypress="return isAlphaNumSpace(event);" id="name_reg" type="text" class="validate">
+                  <label for="name_reg">Full Name</label>
+                  
+                </div>
+    
+                <div class="input-field col s12">
+                  <input onkeypress="return isEmail(event);" id="email_reg" type="email" class="validate">
+                  <label for="email_reg">Email</label>
+                </div>
+    
+            </div>
+    
+            <div class="row">
+    
+                <div class="input-field col s6">
+                  <input id="password_reg" type="password" class="validate">
+                  <label for="password_reg">Password</label>
+                </div>
+    
+                <div class="input-field col s6">
+                  <input id="con_password_reg" type="password" class="validate">
+                  <label for="con_password_reg">Confirm Password</label>
+                </div>
+                
+              </div>
+    
+              <a href="javascript:void(0)" id="submit_reg" class="waves-effect waves-light btn" style="background: #ee6e73 !important;">Register</a>
+                  
+              </form>
+            </div>
+          </div>
+      </section>
+
+      <!-- info Model -->
+      <section class="infomodal">
+        <div id="modal3" class="modal">
+            <div class="modal-content">
+              <h4 id="info-modal-heading"></h4>
+              <p id="info-modal-content"></p>
+            </div>
+            <div class="modal-footer">
+              <a href="#!" class="modal-close waves-effect waves-green btn-flat">Close</a>
+            </div>
+          </div>
+      </section>
+
+      <!-- Nav Bar -->
+      <section class="fnavbar">
+		<div class="navbar-fixed">
+		<nav>
+		    <div class="nav-wrapper">
+		      <a href="#" class="brand-logo">RestroGirls</a>
+		      <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+		      <ul class="right hide-on-med-and-down">
+		        <li><a href="/index.html" class="hvr-grow">Home</a></li>
+		        <li><a href="/about-restro-girls.html" class="hvr-grow">About Us</a></li>
+		        <li><a href="/food-categories.html" class="hvr-grow">Categories</a></li>
+		        <li><a href="/foods.html" class="hvr-grow">Foods</a></li>
+		        <li><a href="#" class="hvr-grow" onclick="toggleModal('Contact Info', 'You can contact us directly by calling to this number +81-225-314-3456. Check the bottom Footer Section of the website for more info.');">Contact</a></li>		        
+		      </ul>
+		    </div>
+		  </nav>
+		</div>
+
+		  <ul class="sidenav" id="mobile-demo">
+		    <li><a href="/index.html">Home</a></li>
+	        <li><a href="/about-restro-girls.html">About Us</a></li>
+	        <li><a href="/food-categories.html">Categories</a></li>
+	        <li><a href="/foods.html">Foods</a></li>
+	        <li><a href="#" onclick="toggleModal('Contact Info', 'You can contact us directly by calling to this number +81-225-314-3456. Check the bottom Footer Section of the website for more info.');">Contact</a></li>
+		  </ul>
+	</section>
+    
+
+    <!-- Baner Slide -->
+    <section class="fslider">
+		<div class="slider">
+			<ul class="slides">
+		    <li>
+		    	<img src="images/banner3.jpg">
+		    	<div class="caption center-align black-text">  
+		        <h3 style="font-size: 3rem !important; font-style: bold !important; font-family: 'Bree Serif', serif;">RestroGirls - The Quality Food!</h3>  
+		        <h5 class="light black-text text-lighten-3"><strong>We deliver Quality. Try us and then buy us!</strong></h5>  
+		      </div>  
+		    </li>
+
+		    <li>
+		    	<img src="images/banner4.jpg">
+		    	<div class="caption center-align black-text">  
+		        <h3 style="font-size: 3rem !important; font-style: bold !important; font-family: 'Bree Serif', serif;">Quality Food at Your Door!</h3>  
+		        <h5 class="light black-text text-lighten-3"><strong>We deliver Quality And We're doing this for years!</strong></h5>  
+		      </div>  
+		    </li>
+		    </ul>
+		   
+	  </div>
+	</section>
+
+  <section class="fcategories">
+	  <div class="container">
+            <div class="section white center">
+                <h3 class="header">Categories</h3>
+            </div>
+
+        <div class="row">
+                <div class="col s12 m4">
+                    <div class="card">
+                        <div class="card-image waves-effect waves-block waves-light">
+                        <img class="activator" src="images/butter.jpg">
+                        </div>
+                        <div class="card-content">
+                        <span class="card-title activator grey-text text-darken-4"><a class="black-text" href=" "></a><i class="material-icons right">more_vert</i></span>
+                        <div class="card-content">
+                        <p>This is a popular category of India. Explore the Foods of this category!</p>
+                        </div>
+                        </div>
+                        <div class="card-reveal">
+                        <span class="card-title grey-text text-darken-4"><i class="material-icons right">close</i></span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col s12 m4">
+                    <div class="card">
+                        <div class="card-image waves-effect waves-block waves-light">
+                        <img class="activator" src="images/cheema.jpg">
+                        </div>
+                        <div class="card-content">
+                        <span class="card-title activator grey-text text-darken-4"><a class="black-text" href=" "></a><i class="material-icons right">more_vert</i></span>
+                        <div class="card-content">
+                        <p>This is a popular category of Pakistani. Explore the Foods of this category!</p>
+                        </div>
+                        </div>
+                        <div class="card-reveal">
+                        <span class="card-title grey-text text-darken-4"><i class="material-icons right">close</i></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <section class="ffooter">
+        <footer class="page-footer">
+        <div class="container">
+            <div class="row">
+            <div class="col l6 s12">
+                <h5 class="white-text">Contact US</h5>
+                <p class="grey-text text-lighten-4">Suit #6-7 Al-syed Arcade Blockl-5, Islamabad,Pakistan </p>
+                <p class="grey-text text-lighten-4">Phone : +92-325-559-5783 </p>
+            </div>
+            <div class="col l4 offset-l2 s12">
+                <h5 class="white-text">Social Media Links</h5>
+                <ul>
+                <li><a class="grey-text text-lighten-3" href="#!">Facebook</a></li>
+                <li><a class="grey-text text-lighten-3" href="#!">Instagram</a></li>
+                <li><a class="grey-text text-lighten-3" href="#!">Twitter</a></li>
+                <li><a class="grey-text text-lighten-3" href="#!">Whatsapp</a></li>
+                </ul>
+            </div>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <div class="container">
+            © 2019 Copyright @ RestroGirls
+            <a class="grey-text text-lighten-4 right" href="#!">Made in Pakistan with <span><i class="tiny material-icons">favorite</i></span></a>
+            </div>
+        </div>
+        </footer>
+    </section>
+
+
+    <script
+    src="https://code.jquery.com/jquery-3.4.1.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+    crossorigin="anonymous"></script>
+
+  <!-- Compiled and minified JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+  <script src="js/loaders.js"></script>
+  <script src="js/ajax.js"></script>
+</body>
+</html>
